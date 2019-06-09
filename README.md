@@ -1,5 +1,6 @@
 # simetra
 Simetra is another Alien Phobia clone.
+
 [https://github.com/ighea/simetra](https://github.com/ighea/simetra)
 
 Written in C using libSDL v1.2 and friends.
@@ -51,4 +52,8 @@ Arrows + left control to fire
 ### v0.02:
 * First "public" & playable release
 
+## Screenshots
 
+![Main menu](https://raw.githubusercontent.com/ighea/simetra/master/screenshots/main.png)
+
+![Main menu](https://raw.githubusercontent.com/ighea/simetra/master/screenshots/gameplay.png)
