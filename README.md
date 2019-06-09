@@ -7,6 +7,34 @@ Written in C using libSDL v1.2 and friends.
 
 Created by Mika Hynnä © 2006
 
+## Running
+
+### On Windows
+
+Launch `Simetra.exe`
+
+### On Linux
+
+Compile with
+
+```
+sh compile
+```
+
+and run
+
+```
+./simetra
+```
+
+or
+
+run with wine
+
+```
+wine Simetra.exe
+```
+
 ## Awesome features
 
 Includes two massacre modes with spawning based on: TIME or KILL.
