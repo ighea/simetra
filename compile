@@ -1,0 +1,11 @@
+#!/bin/sh
+BUILD=$(cat build)
+BUILD=$(expr $BUILD + 1)
+SOURCES="sync.c logics.c graphic.c menu.c player.c otus.c bullet.c 
+bonusbox.c main.c"
+echo Build $BUILD - $SOURCES
+echo Compiling...
+cd src/
+gcc -lSDL -lSDL_ttf -lSDL_gfx `sdl-config --libs --cflags` $SOURCES -o ../simetra -Wall "$@" && echo Done.
+
+echo $BUILD > build
